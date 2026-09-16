@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+myvenv/
+claude/
+.env
+*.pdf
+

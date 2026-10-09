@@ -1,0 +1,5 @@
+CHROMA_PATH = " ./db/chroma"
+PDF_PATH = "./data/sample.pdf"
+EMBED_MODEL = "nomic-embed-text"
+LLM_MODEL = "phi3"
+COLLECTION_NAME = "pdf_docs"

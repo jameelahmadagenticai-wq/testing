@@ -4,7 +4,7 @@ def summarize(text):
     sentences = re.split(r'(?<=[.!?]) +', text)
 
     if len(sentences) < 5:
-        return text[:300]
+        return text[:30]
 
     keywords = [
         "research", "study", "result", "data",
@@ -29,3 +29,4 @@ def summarize(text):
     top_sentences = [s for _, s in scored[:5]]
 
     return " ".join(top_sentences)
+    

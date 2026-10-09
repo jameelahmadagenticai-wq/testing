@@ -22,7 +22,7 @@ def scrape(url):
         text = soup.get_text(separator=" ")
         text = " ".join(text.split())
 
-        return text[:5000]
+        return text[:500]
 
     except Exception:
         return ""

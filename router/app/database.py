@@ -1,0 +1,2 @@
+users = []
+todos = []
